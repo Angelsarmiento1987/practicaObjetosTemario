@@ -126,6 +126,7 @@ form{
     }
   .contResFijo{
     width: 90%;
+   background-color: transparent;
   }
   .contBusqueda{
     width: 96%;
@@ -140,4 +141,8 @@ input::placeholder{
     font-size: 0.5rem;
     
 }
+.contH1{
+    width: 90%;
+}
+
 }

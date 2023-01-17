@@ -109,6 +109,7 @@ let objetoMostrar= ``;
 
 const haceClick = (event) => { 
 let inputConsulta = document.getElementById("inputConsulta").value;
+let inputConsultaMinus = inputConsulta.toLowerCase() //CONVIERTO EL VALOR DE ENTRADA TODO A MINUSCULAS
 
 let sum = 0
 
@@ -117,10 +118,10 @@ for(let i=0;i<clases.length; i++){
    
    
 
-        let arrayContenido = clases[i].contenidos.filter(elemento => elemento == inputConsulta)
+        let arrayContenido = clases[i].contenidos.filter(elemento => elemento == inputConsultaMinus)
        
 
-        if(arrayContenido == inputConsulta){
+        if(arrayContenido == inputConsultaMinus){
             objetoMostrar = clases[i]
 
             idRespuesta.innerHTML = `<div class="contH1">
