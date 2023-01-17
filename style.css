@@ -136,5 +136,8 @@ form{
   .contHeader{
     text-align: center;
   }
- 
+input::placeholder{
+    font-size: 0.5rem;
+    
+}
 }
